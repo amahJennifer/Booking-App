@@ -1,0 +1,15 @@
+body{
+  padding:0;
+  margin:0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  background: whitesmoke;
+  height:100vh
+}

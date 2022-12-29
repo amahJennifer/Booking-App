@@ -44,7 +44,7 @@ const dispatch = useDispatch()
         <div>
           <Typography>All Bookings</Typography>
           {existingBookings.map((booking) => (
-            <Box style={{background:"white",maxWidth:'95%'}} key={booking.id}>
+            <Box style={{background:"white",maxWidth:'95%',margin:'auto'}} key={booking.id}>
               <p>
                 {" "}
                 {`${booking.name} made a reservation from ${booking.startDate} to ${booking.endDate}`}
